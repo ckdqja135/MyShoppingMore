@@ -34,3 +34,6 @@ PS C:\Users\ckdqj\go\MyShoppingMall\Frontend\src> cd .\Frontend\src
 ``` shell 
 PS C:\Users\ckdqj\go\MyShoppingMall\Frontend\src> npm start        
 ```
+
+## DB
+SQL 파일 참조하여 테이블, 데이터 Insert 할 것.
