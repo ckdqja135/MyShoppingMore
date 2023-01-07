@@ -26,4 +26,15 @@ PS C:\Users\ckdqj\go\MyShoppingMall\backend\src> go run main.go
 ```
 
 ## FrontEnd Run
-1. 
+1. FrontEnd 디렉토리 이동.
+``` shell
+PS C:\Users\ckdqj\go\MyShoppingMall\Frontend\src> cd .\Frontend\src
+```
+2. 실행
+``` shell 
+PS C:\Users\ckdqj\go\MyShoppingMall\Frontend\src> npm start        
+```
+PS C:\Users\ckdqj\go\MyShoppingMall\Frontend\src> npm start        
+
+
+
