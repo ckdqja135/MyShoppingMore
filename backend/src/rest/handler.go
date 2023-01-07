@@ -29,7 +29,7 @@ type Handler struct {
 }
 
 func NewHandler() (HandlerInterface, error) {
-	db, err := dblayer.NewORM("mysql", "root:'root'@tcp(localhost:3306)/gomusic")
+	db, err := dblayer.NewORM("mysql", "root:'root'@tcp(localhost:3307)/bamishop")
 	if err != nil {
 		return nil, err
 	}
@@ -179,7 +179,7 @@ func (h *Handler) Charge(c *gin.Context) {
 	chargeP := &stripe.ChargeParams{
 		Amount:      stripe.Int64(int64(request.Price)),
 		Currency:    stripe.String("usd"),
-		Description: stripe.String("GoMusic charge..."),
+		Description: stripe.String("BamiShop charge..."),
 	}
 	stripeCustomerID := ""
 	//Either remembercard or use exeisting should be enabled but not both
