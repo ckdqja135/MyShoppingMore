@@ -34,7 +34,3 @@ PS C:\Users\ckdqj\go\MyShoppingMall\Frontend\src> cd .\Frontend\src
 ``` shell 
 PS C:\Users\ckdqj\go\MyShoppingMall\Frontend\src> npm start        
 ```
-PS C:\Users\ckdqj\go\MyShoppingMall\Frontend\src> npm start        
-
-
-
